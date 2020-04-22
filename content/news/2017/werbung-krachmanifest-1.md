@@ -1,0 +1,16 @@
++++
+title = "Werbung: Krachmanifest #1"
+author = "Chris"
+date = "2017-01-09 20:51:25+00:00"
+slug = "werbung-krachmanifest-1"
+category = "news"
+legacy = true
++++
+
+<img class="alignright size-large wp-image-15473" src="images//2017/01/2017-Krachmanifest-Nr1-488x690.jpg" alt="2017-Krachmanifest-Nr1" width="488" height="690" />Es ist soweit! Nach dem Ende des Hammerheart-Fanzines, haben Katja und Rayk ihr eigenes Ding auf die Beine gestellt! Der ein oder andere kennt vielleicht ihre Beiträge hier auf dem NecroSlaughter und weiß: Die beiden haben Ahnung und stehen auf gute Musik! Grindcore, Death Metal und gelegentlich auch schon mal Black Metal.
+
+Entsprechend spannend liest sich auch die Inhaltsangabe vom KRACHMANIFEST #1:
+
+Es gibt ein Interview mit den Machern vom <a href="https://www.facebook.com/mastersunicorn/" data-hovercard="/ajax/hovercard/page.php?id=1377407742545717&amp;extragetparams=%7B%22directed_target_id%22%3A0%7D" data-hovercard-prefer-more-content-show="1">Masters of the Unicorn</a> (und natürlich auch einen Bericht über das letzte Festival) und viele andere Gespräche: <a href="https://www.facebook.com/fiendgrind/" data-hovercard="/ajax/hovercard/page.php?id=1434691290076678&amp;extragetparams=%7B%22directed_target_id%22%3A0%7D" data-hovercard-prefer-more-content-show="1">FIEND</a> (Grindcore, USA), <a href="https://www.facebook.com/deathmetalgraveyard/" data-hovercard="/ajax/hovercard/page.php?id=161078517258016&amp;extragetparams=%7B%22directed_target_id%22%3A0%7D" data-hovercard-prefer-more-content-show="1">Graveyard</a> (Death Metal, Spanien), Plastic Surgery Disaster (Grindcore, Deutschland), <a href="https://www.facebook.com/roedelrecords/" data-hovercard="/ajax/hovercard/page.php?id=931295730272899&amp;extragetparams=%7B%22directed_target_id%22%3A0%7D" data-hovercard-prefer-more-content-show="1">RØDEL Records</a> (Grind/Hardcore Label aus Deutschland), <a href="https://www.facebook.com/sarinvomit/" data-hovercard="/ajax/hovercard/page.php?id=193312247485145&amp;extragetparams=%7B%22directed_target_id%22%3A0%7D" data-hovercard-prefer-more-content-show="1">Sarinvomit</a> (Black Metal, Türkei), <a href="https://www.facebook.com/ViolentFrustration/" data-hovercard="/ajax/hovercard/page.php?id=441699402566034&amp;extragetparams=%7B%22directed_target_id%22%3A0%7D" data-hovercard-prefer-more-content-show="1">VIOLENT FRUSTRATION</a> (Grind/Death, Deutschland), <a href="https://www.facebook.com/Wodecult/" data-hovercard="/ajax/hovercard/page.php?id=874663715908383&amp;extragetparams=%7B%22directed_target_id%22%3A0%7D" data-hovercard-prefer-more-content-show="1">WODE</a> (Black Metal, England),<a href="https://www.facebook.com/CrypticBrood/" data-hovercard="/ajax/hovercard/page.php?id=486501158057711&amp;extragetparams=%7B%22directed_target_id%22%3A0%7D" data-hovercard-prefer-more-content-show="1">Cryptic Brood</a> (Death Metal, Deutschland) und <a href="https://www.facebook.com/sunworshipband/" data-hovercard="/ajax/hovercard/page.php?id=234425396724989&amp;extragetparams=%7B%22directed_target_id%22%3A0%7D" data-hovercard-prefer-more-content-show="1">Sun Worship</a> (Black Metal, Deutschland).
+
+Zu bestellen gibt es das ganze für 3 € zzgl Versand und Verpackung unter <a href="mailto:krachmanifest@gmx.net">krachmanifest@gmx.net</a> .

@@ -1,0 +1,32 @@
+<!-- Start of Open Graph -->
+<meta property="og:title" content="{{ .Title }}{{ if eq .IsHome false }} - {{ .Site.Title }}{{ end }}">
+{{ if .IsPage }}
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}">
+<meta property="og:description" content="{{if isset .Params "description" }}{{.Params.description}}{{else}}{{ .Summary }}{{end}}">
+{{ else }}
+<meta property="og:type" content="website">
+<meta property="og:description" content="{{ .Site.Params.description }}">
+{{ end }}
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+{{if isset .Params "image" }}
+<meta property="og:image" content="{{ .Site.BaseURL }}images/{{ .Params.image }}">
+{{ end }}
+{{ range .Params.tags }}
+<meta property="og:tags" content="{{ . }}">
+{{ end }}
+<!-- End of Open Graph -->
+<!-- Start of Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@nocturnsilence">
+<meta name="twitter:creator" content="@nocturnsilence">
+{{ if .IsPage }}
+<meta property="twitter:description" content="{{if isset .Params "description" }}{{.Params.description}}{{else}}{{ .Summary }}{{end}}">
+{{ else }}
+<meta property="twitter:description" content="{{ .Site.Params.description }}">
+{{end}}
+<meta property="twitter:title" content="{{ .Title }}{{ if eq .IsHome false }} - {{ .Site.Title }}{{ end }}">
+{{if isset .Params "image" }}
+<meta property="twitter:image" content="{{ .Site.BaseURL }}images/{{ .Params.image }}">
+{{ end }}

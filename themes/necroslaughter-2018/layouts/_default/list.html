@@ -1,0 +1,26 @@
+{{ partial "header.html" . }}
+<div class="row">
+
+    <div class="col">
+        <h2>Beiträge aus dem {{ .Data.Term }}-Archiv</h2>
+
+        <div class="posts">
+            {{ $paginator := .Paginate .Data.Pages 5 }}
+            {{ range $paginator.Pages -}}
+
+                {{ if eq $.Data.Term "review" }}
+                    {{ partial "reviews/archive.html" . }}
+                {{ else if eq $.Data.Term "interview" }}
+                    {{ partial "interviews/archive.html" . }}
+                {{ else }}
+                <span><a href="{{ .Permalink }}">{{ .Title }}</a> <time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></span>
+                {{ end }}
+            {{- end }}
+        </div>
+
+
+        {{ partial "pagination.html" . }}
+    </div>
+
+</div>
+{{ partial "footer.html" . }}

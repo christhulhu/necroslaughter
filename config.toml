@@ -1,0 +1,84 @@
+baseURL = "https://necroslaughter.de/"
+languageCode = "de-de"
+title = "NecroSlaughter.de"
+theme = "necroslaughter-2018"
+removePathAccents=true
+preserveTaxonomyNames=true
+
+[outputs]
+home = ["HTML", "RSS"]
+page = ["HTML"]
+
+[outputFormats.RSS]
+path = "/feed"
+
+[author]
+displayName = "Christian G'hlen"
+name = "Christian G'hlen"
+email = "death@necroslaughter.de"
+
+[params]
+description = "Webzine für Death Metal, Crust, Black Metal und sonstigen Krach"
+logo = "images/assets/NecroSlaughter-logo.png"
+header_background = "images/assets/background.jpg"
+keywords = ["music", "reviews", "interviews", "death metal", "black metal", "crust", "grindcore", "webzine"]
+
+[taxonomies]
+category = "category"
+artist = "artist"
+genre = "genre"
+label = "label"
+tags = "tags"
+author = "author"
+
+[permalinks]
+review = ":year/:month/:slug"
+interview = ":year/:month/:slug"
+post = ":year/:month/:slug"
+
+[[menu.head]]
+    name = "Reviews"
+    url = "/category/review/"
+    weight = 10
+[[menu.head]]
+    name = "Interviews"
+    url = "/category/interview"
+    weight = 20
+[[menu.head]]
+    name = "Browse"
+    url = "/browse"
+    weight = 30
+[[menu.head]]
+    name = "NecroSlaughter"
+    url = "https://necroslaughter.de"
+    weight = 40
+
+[[menu.footer]]
+    name = "Impress"
+    url = "/impress"
+    weight = 10
+[[menu.footer]]
+    name = "Disclaimer"
+    url = "/disclaimer"
+    weight = 20
+[[menu.footer]]
+    name = "Data privacy statement"
+    url = "/data-privacy-statement"
+    weight = 30
+[[menu.footer]]
+    name = "About"
+    url = "/about"
+    weight = 40
+
+[[menu.social]]
+name = "rss"
+url =  "/feed/index.xml"
+weight = 10
+[[menu.social]]
+name = "facebook"
+url = "https://facebook.com/necroslaugher.de"
+weight = 20
+[[menu.social]]
+name = "twitter"
+url = "https://twitter.com/necroslaughter"
+weight = 30

@@ -1,0 +1,25 @@
+<ul class="review-meta list-unstyled">
+    {{if isset .Params "genre" }}
+    <li><i class="fa fa-folder-open">
+        </i>&nbsp;<strong>Genre{{ if gt (len .Params.genre) 1 }}s{{ end }}</strong>:
+      {{ range $index, $genre := .Params.genre }}
+      {{ if gt $index 0 }}/ {{ end }}<a href="{{ "/genre/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+  </li>
+{{end}}
+{{if isset .Params "artist" }}
+    <li><i class="fa fa-folder-open"></i>&nbsp;<strong>Artist{{ if gt (len .Params.artist) 1 }}s{{ end }}</strong>:
+      {{ range $index, $artist := .Params.artist }}
+        {{ if gt $index 0 }}, {{ end }}<a href="{{ "/artist/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+    </li>
+{{end}}
+{{if isset .Params "label" }}
+  <li><i class="fa fa-folder-open">
+      </i>&nbsp;<strong>Label{{ if gt (len .Params.label) 1 }}s{{ end }}</strong>:
+      {{ range $index, $label := .Params.label }}
+        {{ if gt $index 0 }}, {{ end }}<a href="{{ "/label/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+  </li>
+{{end}}
+</ul>

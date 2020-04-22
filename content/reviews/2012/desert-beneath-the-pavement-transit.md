@@ -1,0 +1,28 @@
++++
+title = "Desert Beneath The Pavement - Transit"
+author = "Chris"
+date = "2012-11-03 01:17:54+00:00"
+slug = "desert-beneath-the-pavement-transit"
+category = "reviews"
+tags = ["CD-Reviews", "Doom", "Hardcore", "Post-Hardcore", "Post-Metal", ]
+labels = ["Eigenproduktion", ]
+image = "images//2012/11/Desert-Beneath-The-Pavement-Transit.jpg"
+legacy = true
++++
+
+Die schöne neue Welt. In der digitalen Bohème eröffnen sich wunderbare, neue Möglichkeiten für junge Bands. **DESERT BENEATH THE PAVEMENT** machen sich dieser zu Nutzen. Ihr erstes Album "_Transit_" wird von der Truppe komplett in Eigenregie über die Plattform <a href="http://desertbeneaththepavement.bandcamp.com/">Bandcamp</a> vermarktet und vertrieben. Dort kann man das Debütalbum gänzlich anhören und erwerben. Digital für faire fünf Euro, physisch für 10 Währungseinheiten. Wer sich für die Hardcopy entscheidet, bekommt ein schönes, sechsseitiges Digipak, gedruckt auf schwerem Karton. Eco-friendly, falls man sich für nachhaltige Produktion interessiert. Dazu gibt es ein achtseitiges Booklet mit (fast) allen Songtexten und sehr stimmungsvollen Bildern vom polnischen Fotokünstler Tom Wasilewski. Es ist ein sehr stimmiges Paket, was sowohl die Musik von **DESERT BENEATH THE PAVEMENT** unterstützt, wie auch eindrucksvoll zeigt, dass eine Junge Band heute auch ohne Label eine beeindruckende Veröffentlichung auf die Beine stellen kann!  In Anbetracht des Preises eine mehr als runde Geschichte, zumal man beim physischen Tonträger noch einen Bonus-Track dazu bekommt. Insgesamt ist das eine Spieldauer von gut einer dreiviertel Stunde für sechs Lieder, was mehr als fair ist.
+
+Vorbilder für das Quintett aus Mannheim, was sich gerade 2010 gründete, sind sicherlich Größen wie **Fall Of Efrafa**, **Cult Of Luna** und ein wenig auch **Neurosis**. Das Resultat spottet aber jedweder Beschreibung, denn so eine interessante Mischung aus Downtempo Doom, Hardcore und Post-Rock/Metal/Hardcore habe ich bisher noch nicht gehört. Das mag vielleicht auch am Gesang von Daniel liegen, der mich gerade in seinen klaren Momenten etwas an manche (gute) Gothic-Sänger erinnert. Gelegentlich wird zwar schon mal ersichtlich, dass er nicht wirklich singen kann, aber seine Intonation und seine Betonung sind mindestens so gut, wie seine Stimme selber. Dadurch bekommt die Musik einfach eine weitere Fassette, die **DESEART BENEATH THE PAVEMENT** weiter von anderen Bands abhebt. Zugegeben klingt der leicht kitschige, deutschsprachige Ausbruch in "_God Meant New York_" sehr pathetisch und erinnert an die exzentrischen Auswüchse von **Goethes Erben**, passt aber dennoch gut in das Gesamtkonstrukt. Besonders die Steigerung nach dem Moment der verzweifelten Ruhe, fängt gut die Atmosphäre und verarbeitet diesen etwas eigensinnigen Moment stimmig zu einem Gesamtbild.
+Weiterhin ist die Musik zwar immer leicht verzweifelt, traurig und zuweilen melancholisch. Doch nie so pessimistisch und beklemmend wie andere Vertreter des Post-Hardcore. Immer zeigt sich ein gewisser Lichtblick am Ende des Tunnels. Häufig sind die Instrumente auf "_Transit_" sehr verspielt. Sei es direkt zum Beginn des Albums, wenn "_For Futility_" erstmal knapp fünf Minuten braucht, bis der eigentliche Song beginnt, oder in "_Shambala_", was regulär ein rein instrumentaler Song ist. Es zeigt die Hoffnung der Band, dass die Welt doch noch eine Zukunft haben könnte. Ein kleiner Kontrast zu den düsteren Momenten, die das Album ansonsten zieren.
+Der wohl sperrigste Track des Albums ist wohl "_Do You Feel It When I Google You_", das mit seinem zeitgenössischem Namen etwas befremdlich wirkt. Doch spätestens der kritische Text rückt den momentbezogenen Titel ins passende Licht. In der Entwicklung offenbart der Song auf jeden Fall das komplette Spektrum von **DESERT BENEATH THE PAVEMENT**. Von ruhigen, fragilen Momenten steigert sich der Track immer weiter, immer verzweifelter, immer kräftiger.
+
+Wer trotz des digitalen Zeitalters zum Digipak von "_Transit_" greift, bekommt noch "_Shambala_" als Bonus-Track. Der originäre Song ist als Instrumental auch regulär erhältlich. Die Beigabe umfasst aber das Lied mit einer Gesangsspur von Max Feibel (**Prothead**, **Everblame**). Der ruhige Gesang macht den Song noch fragiler, gleichzeitig aber auch interessanter. Angereichert mit diversen Samples, ist mir diese Variante lieber, als das Original. Auch, wenn diese Mischung sehr poppig ist, und nicht ganz in das verzweifelte Bildnis von "_Transit_" passen mag. Oder vielleicht auch gerade deswegen.
+
+An die schiere Wut von **Fall Of Efrafa** kommen **DESERT BENEATH THE PAVEMENT** zu keiner Zeit. Auch nicht an die aussichtslose Finsternis **Neurosis**'. Oder gar an die instrumentale Filigranität von **Cult Of Luna**. Doch gerade dieser reduzierte Fassettenreichtum mit einem kleinen bisschen Hoffnung macht die jungen Mannheimer interessant. Sie begeben sich nicht in das große finstere Loch des Nihilismus, das einem Piranhabecken gleicht. Sie erschaffen sich direkt mit ihrem ersten Album "_Transit_" einen eigenen Sound, der Fans aus dem Metal, Hardcore und Post-Rock ansprechen dürfte. Und dank der modernen Vermarktungswege kann man nun selber Entscheiden: Kaufe ich mir die Songs, oder das stimmige Gesamtpaket im Digipak? Oder höre ich mir erstmal auf dem Bandcamp-<a href="http://desertbeneaththepavement.bandcamp.com/">Profil</a> selber alles an, bevor ich mich von einer x-beliebigen Kritik (fehl-)leiten lasse? Nehmt euch die Zeit und lasst alleine den Opener "_For Futility_" wirken. Er wächst, wie es "_Transit_" im Ganzen tut!
+
+
+
+---
+**Infos:**
+Eigenproduktion - Oktober 2012 / 
+Digipak-CD / 5 Lieder / 39:12 Min. / 

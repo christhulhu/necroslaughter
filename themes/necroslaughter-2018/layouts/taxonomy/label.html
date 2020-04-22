@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+{{ partial "header/head.html" . }}
+<div id="content">
+    <div class="row">
+        <div class="col">
+            <h2>Reviews about releases by {{.Data.Term}}</h2>
+        </div>
+    </div>
+    <div class="row">
+    {{ range .Data.Pages -}}
+          {{ partial "reviews/archive.html" . }}
+    {{- end }}
+    </div>
+</div>
+{{ partial "footer.html" . }}

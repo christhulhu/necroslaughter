@@ -1,0 +1,6 @@
+<amp-img  src="{{ .Site.BaseURL }}{{ .Get "src" }}"
+    {{ with .Get "alt"}}alt="{{.}}"{{ end }}
+    {{ with .Get "ampwidth"}}width="{{.}}"{{ end }}
+    {{ with .Get "ampheight"}}height="{{.}}"{{ end }}
+    layout="responsive"
+></amp-img>

@@ -1,0 +1,32 @@
+{{ partial "header.html" . }}
+{{ partial "header/head.html" . }}
+<div id="content">
+    {{ $section := where .Data.Pages ".Section" "==" "interview"}}
+    {{ if $section}}
+    <div class="row">
+        <div class="col">
+            <h2>Interviews</h2>
+        </div>
+    </div>
+    <div class="row">
+    {{ range $section -}}
+          {{ partial "interviews/archive.html" . }}
+    {{- end }}
+    </div>
+    {{end}}
+
+    {{ $section := where .Data.Pages ".Section" "==" "review"}}
+    {{ if $section}}
+    <div class="row">
+        <div class="col">
+            <h2>Reviews on {{.Data.Term}}</h2>
+        </div>
+    </div>
+    <div class="row">
+    {{ range $section -}}
+          {{ partial "reviews/archive.html" . }}
+    {{- end }}
+    </div>
+    {{end}}
+</div>
+{{ partial "footer.html" . }}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,600|PT+Serif:400,400i,600&subset=latin-ext');
+
+
+html {
+	font-family: 'PT Serif', serif;
+	font-family: 'PT Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, a {
+	font-family: 'PT Serif'!important;
+	font-variation: small-caps !important;
+}
+
+body.body {
+	font-family: 'PT Sans' !important;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+em {
+	font-variant: small-caps;
+	font-style: normal;
+	font-weight: 600;
+}
+
+h1,h2 {
+	font-variant: small-caps;
+	/* don't display digraphs in languages that don't support it */
+	font-language-override: normal;
+	/* use font-defined kerning info */
+	font-kerning: auto;
+	/* opentype options: kerning, ligatures, horiz ligatures,
+	 * discretionary ligatures, contextual swash */
+	font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
+	/* allow browser to auto-infer missing glyphs */
+	font-synthesis: weight style;
+}
+
+.capitalize-first-letter::first-letter {
+	text-transform: uppercase;
+	display: inline;
+}
+.home-article-footer {
+	font-size: 0.7em;
+}
+.archive-article-footer {
+	font-size: 0.7em;
+}
+.review-meta, .review-meta-links {
+	font-size: 0.75em;
+}

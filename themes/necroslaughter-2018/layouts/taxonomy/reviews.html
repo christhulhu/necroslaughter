@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+<div id="content">
+    {{ $section := .Paginate ( where .Data.Pages ".Section" "==" "reviews" ) 5 }}
+    {{ if $section}}
+    <div class="row">
+        <div class="col">
+            <h2>{{.Data.Term}}</h2>
+        </div>
+    </div>
+    <div class="row">
+    {{ range $section.Pages -}}
+          {{ partial "reviews/archive.html" . }}
+    {{- end }}
+    </div>
+    {{end}}
+</div>
+
+{{ partial "pagination.html" . }}
+{{ partial "footer.html" . }}

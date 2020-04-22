@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+{{ partial "header/head.html" . }}
+<main id="main" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+  <article id="content" class="cf" role="article" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+  <header class="article-header entry-header">
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                <h1 class="entry-title" itemprop="headline" rel="bookmark">{{ .Title }}</h1>
+              </div>
+          </div>
+      </div>
+  </header>
+
+  <section class="entry" temprop="articleBody">
+      <div class="container">
+          <div class="row">
+            <div class="entry-content col">
+              {{ .Content }}
+            </div>
+          </div>
+      </div>
+  </section>
+
+    </article>
+</main>
+
+{{ partial "footer.html" . }}

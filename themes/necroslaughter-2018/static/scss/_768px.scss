@@ -1,0 +1,23 @@
+
+@media (min-width: 768px) {
+	body.body {
+		line-height: 1.5em;
+		font-size: 1.5em;
+	}
+	iframe.piwik-opt-out {
+		line-height: 1.5em;
+		font-size: 1.5em;
+	}
+
+	.home-article {
+		article {
+			padding: 1em;
+			.article-header {
+				width: 100%;
+			}
+		}
+	}
+	.hide-on-mobile {
+		visibility: visible;
+	}
+}

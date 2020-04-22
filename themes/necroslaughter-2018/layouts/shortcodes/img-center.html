@@ -1,0 +1,6 @@
+<img src="{{ .Get "src" }}"
+    class="img-fluid mx-auto d-block {{ with .Get "class"}}{{.}}{{ end }}"
+    {{ with .Get "alt"}}alt="{{.}}"{{ end }}
+    {{ with .Get "width"}}width="{{.}}"{{ end }}
+    {{ with .Get "height"}}height="{{.}}"{{ end }}
+    />

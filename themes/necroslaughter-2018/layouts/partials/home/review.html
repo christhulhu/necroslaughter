@@ -1,0 +1,38 @@
+<div class="container home-article">
+	<article >
+		<div class="row">
+			<header class="article-header d-flex justify-content-between">
+				<h2 class="d-block-inline">
+					<a href="{{ .Permalink }}" class="transition" rel="bookmark" title="{{ .Title }}"> {{ .Title }}</a>
+				</h2>
+				<p class="lower-opacity d-block-inline hide-on-mobile">
+					<small>
+						<i class="fa fa-folder-open"></i>
+						{{humanize .Section}}
+					</small>
+				</p>
+			</header>
+		</div>
+
+		<div class="article-content row">
+			{{if isset .Params "image" }}
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 article-image">
+				<img src="{{ .Site.BaseURL }}/{{.Params.image}}"  alt="{{ .Title }}" class="img-fluid"  width="300" height="300">
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 article-excerpt">
+				<p>{{.Summary}} <a href="{{ .RelPermalink }}">Read More…</a></p>
+			</div>
+			{{ else }}
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<p>{{.Summary}}</p>
+			</div>
+			{{ end }}
+		</div>
+
+		<div class="row d-flex justify-content-end">
+			<footer class="home-article-footer">
+				{{ partial "home/post-meta.html" . }}
+			</footer>
+		</div>
+	</article>
+</div>

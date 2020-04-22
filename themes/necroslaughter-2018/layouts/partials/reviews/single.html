@@ -1,0 +1,91 @@
+<main id="main"> <!--  itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Thing"-->
+    <article id="content" class="cf review" itemscope itemprop="review" itemtype="http://schema.org/Review">
+
+
+        <div class="container">
+            <header class="article-header entry-header">
+                <div class="row">
+                    <div class="col">
+                        <a href="{{ .Site.BaseURL }}{{.Params.image}}" class="vanillabox">
+                            <img src="{{ .Site.BaseURL }}{{.Params.image}}" alt="{{ .Title }}" class="img-fluid" style="margin-bottom: 1em;"/>
+                        </a>
+
+                        <h2 class="entry-title" itemprop="headline" rel="bookmark">{{ .Title }}</h2>
+                            <p class="lower-opacity small">
+                                <i class="fa fa-user"></i> <a href="{{ "/author/" | relURL }}{{ .Params.author | urlize }}">{{.Params.author }}</a>
+                                <time class="updated entry-time" datetime="{{ dateFormat "2006-01-02" .Date }}" itemprop="datePublished">
+                                    <i class="fa fa-calendar"></i> {{ dateFormat "02.01.2006" .Date }}
+                                </time>
+                                <i class="fa fa-folder-open"></i>
+                                <a href="{{ "/category/" | relURL }}{{ .Params.category | urlize }}">{{humanize .Params.category  }}</a>
+                                {{if isset .Params "tags" }}
+                                <strong>
+                                    <i class="fa fa-folder-open"></i>
+                                    Tag{{ if gt (len .Params.tags) 1 }}s{{ end }}
+                                </strong>:
+                                    {{ range $index, $genre := .Params.tags }}
+                                        {{ if gt $index 0 }}/ {{ end }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+                                    {{ end }}
+                                {{end}}
+                            </p>
+
+                    </div>
+                </div>
+            </header>
+
+            <div class="row">
+                <div class="col">
+
+                    {{.Content}}
+                </div>
+            </div>
+
+            <footer>
+                <div class="row">
+                    <div class="col">
+                        {{if isset .Params "player" }}
+                        <div class="webzine_embedded_bandcamp">
+                            {{ .Params.player | safeHTML }}
+                        </div>
+                        {{end}}
+
+                        <ul class="review-meta list-unstyled">
+                            {{if isset .Params "genre" }}
+                            <li><i class="fa fa-folder-open">
+                            </i>&nbsp;<strong>Genre{{ if gt (len .Params.genre) 1 }}s{{ end }}</strong>:
+                                {{ range $index, $genre := .Params.genre }}
+                                {{ if gt $index 0 }}/ {{ end }}<a href="{{ "/genre/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+                                {{ end }}
+                            </li>
+                            {{end}}
+                            {{if isset .Params "artist" }}
+                            <li><i class="fa fa-folder-open"></i>&nbsp;<strong>Artist{{ if gt (len .Params.artist) 1 }}s{{ end }}</strong>:
+                                {{ range $index, $artist := .Params.artist }}
+                                {{ if gt $index 0 }}, {{ end }}<a href="{{ "/artist/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+                                {{ end }}
+                            </li>
+                            {{end}}
+                            {{if isset .Params "label" }}
+                            <li><i class="fa fa-folder-open">
+                            </i>&nbsp;<strong>Label{{ if gt (len .Params.label) 1 }}s{{ end }}</strong>:
+                                {{ range $index, $label := .Params.label }}
+                                {{ if gt $index 0 }}, {{ end }}<a href="{{ "/label/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+                                {{ end }}
+                            </li>
+                            {{end}}
+                        </ul>
+
+                        {{ if isset $.Params "links"}}
+                        <ul class="review-meta-links list-unstyled">
+                            {{ range $.Params.links}}
+                            <li><i class="fa fa-link"></i> {{markdownify .}}</li>
+                            {{end}}
+                        </ul>
+                        {{end}}
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </article>
+</main>

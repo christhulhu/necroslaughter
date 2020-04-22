@@ -1,0 +1,23 @@
+{{ if or ((.Paginator 10).HasNext) ((.Paginator 10).HasPrev) }}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <ul class="nav d-flex justify-content-between">
+                {{ if .Paginator.HasPrev }}
+                  <li class="nav-item">
+                      <a href="{{ .Paginator.Prev.URL }}" class="nav-link post-list-pagination-item post-list-pagination-item-prev">&nbsp;&laquo; Previous Page</a>
+                  </li>
+                {{ end }}
+                <li class="nav-item">
+                    <span class="nav-link post-list-pagination-item post-list-pagination-item-current"> Page {{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}</span>
+                </li>
+                {{ if (.Paginator 5).HasNext }}
+                <li class="nav-item">
+                    <a href="{{ .Paginator.Next.URL }}" class="nav-link post-list-pagination-item post-list-pagination-item-next">Next Page &raquo;&nbsp;</a>
+                </li>
+              {{ end }}
+            </ul>
+        </div>
+    </div><!--row-->
+</div><!--container-->
+{{ end }}

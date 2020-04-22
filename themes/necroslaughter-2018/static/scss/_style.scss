@@ -1,0 +1,21 @@
+.body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: $true_black;
+}
+
+
+.header {
+    //width: 20% !important;
+    //position: fixed !important;
+    //top: 0;
+    //height: 100%;
+}
+
+.main-content-row {
+    background: rgba($black, 0.9);
+	box-shadow: 5px 5px 10px 5px rgba($true_black,0.8);
+}
+.lower-opacity {
+	opacity: 0.5;
+}

@@ -1,0 +1,74 @@
+{{ partial "header.html" . }}
+
+<main id="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+    <article id="content" class="interview" itemscope itemprop="blogPost"
+             itemtype="http://schema.org/BlogPosting">
+
+        <header class="article-header entry-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="entry-title" itemprop="headline" rel="bookmark">{{ .Title }}</h2>
+                        <p class="lower-opacity small">
+                            <i class="fa fa-user"></i> <a href="{{ "/author/" | relURL }}{{ .Params.author | urlize }}">{{.Params.author }}</a>
+                            <time class="updated entry-time" datetime="{{ dateFormat "2006-01-02" .Date }}" itemprop="datePublished">
+                            <i class="fa fa-calendar"></i> {{ dateFormat "02.01.2006" .Date }}
+                            </time>
+                            <i class="fa fa-folder-open"></i>
+                            <a href="{{ "/category/" | relURL }}{{ .Params.category | urlize }}">{{humanize .Params.category }}</a>
+                            {{if isset .Params "tags" }}
+                            <strong>
+                                <i class="fa fa-folder-open"></i>
+                                Tag{{ if gt (len .Params.tags) 1 }}s{{ end }}
+                            </strong>:
+                            {{ range $index, $genre := .Params.tags }}
+                            {{ if gt $index 0 }}/ {{ end }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+                            {{ end }}
+                            {{end}}
+                        </p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-end">
+                        <div class="byline review-meta-details vcard lower-opacity">
+                            {{ partial "interviews/interview-meta.html" . }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container" itemprop="articleBody">
+            <div class="row">
+                <div class="entry-content col">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+
+        <footer class="article-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="byline review-meta-details vcard">
+                            {{ partial "reviews/review-meta.html" . }}
+                        </div>
+
+                        {{ if isset $.Params "links"}}
+                        <ul class="review-meta-links list-unstyled">
+                            {{ range $.Params.links}}
+                            <li><i class="fa fa-link"></i> {{markdownify .}}</li>
+                            {{end}}
+                        </ul>
+                        {{end}}
+
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </article>
+</main>
+
+{{ partial "footer.html" . }}

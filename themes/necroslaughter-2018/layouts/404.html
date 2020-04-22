@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+{{ partial "header/head.html" . }}
+<div id="content">
+    <div class="row">
+        <div class="col">
+            <h2>404 - Not Found</h2>
+            <p>
+                Sorry, the requested page was not found. Maybe you'd like to browse the other content?
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        {{ range $name, $taxonomy := .Site.Taxonomies }}
+            {{if ne $name "category"}}
+            <div class="col">
+                <h3 class="capitalize-first-letter">By <span class="capitalize-first-letter">{{ $name }}</span></h3>
+                <ul class="list-unstyled">
+                    {{ range $key, $value :=$taxonomy}}
+                    <li><i class="fa fa-folder-open"></i>&nbsp;<a href="{{ $.Site.BaseURL }}{{ $name | urlize }}/{{$key|urlize}}">{{$key}}</a></li>
+                    {{end}}
+                </ul>
+            </div>
+            {{end}}
+      {{ end }}
+    </div>
+</div>
+
+{{ partial "footer.html" . }}

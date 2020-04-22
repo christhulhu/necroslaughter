@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+
+{{if not (.Params.legacy | default "false") }}
+    {{ partial "reviews/single.html" . }}
+{{else}}
+{{ partial "reviews/single-legacy.html" . }}
+
+{{end}}
+
+
+{{ partial "footer.html" . }}

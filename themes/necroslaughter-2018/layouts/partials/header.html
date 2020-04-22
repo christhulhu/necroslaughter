@@ -1,0 +1,43 @@
+<!doctype html>
+{{ "<!--[if lt IE 7]><html lang=\"en-US\" class=\"no-js lt-ie9 lt-ie8 lt-ie7\"><![endif]-->"  | safeHTML }}
+{{ "<!--[if (IE 8)&!(IEMobile)]><html lang=\"en-US\" class=\"no-js lt-ie9\"><![endif]-->"  | safeHTML }}
+{{ "<!--[if (IE 7)&!(IEMobile)]><html lang=\"en-US\" class=\"no-js lt-ie9 lt-ie8\"><![endif]-->"  | safeHTML }}
+{{ "<!--[if gt IE 8]><!-->" | safeHTML }}<html lang="de">{{"<!--<![endif]-->"  | safeHTML }}
+    <head>
+        <meta charset="utf-8">
+
+        {{ partial "header/seo.html" . }}
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		{{ partial "header/icons.html" . }}
+
+        <meta name="google-site-verification" content="fIXr57vHwOHOnO4M5FwEV8kf0ODEsd_so9RG341DCUE" />
+
+        {{ partial "header/opengraph.html" . }}
+
+        {{ .Hugo.Generator }}
+
+
+        {{ range .AlternativeOutputFormats -}}
+        <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+        {{ end -}}
+        {{ with .RSSLink }}
+        <link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+        {{ end }}
+
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/nocturnal.css" />
+	</head>
+
+	<body class="body {{ if .IsHome }} home {{end}}" itemscope itemtype="http://schema.org/WebPage"  style="background-image: url({{ .Site.BaseURL }}{{.Site.Params.header_background}});">
+
+    <div class="container  main-content-row">
+        <div class="row">
+            <div class="col-3 header">
+                {{ partial "header/head.html" . }}
+            </div>
+
+            <div class="col-9 content">

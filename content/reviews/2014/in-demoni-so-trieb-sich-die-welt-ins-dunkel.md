@@ -1,0 +1,37 @@
++++
+title = "In Demoni - So Trieb Sich Die Welt Ins Dunkel"
+author = "Chris"
+date = "2014-03-06 22:36:04+00:00"
+slug = "in-demoni-so-trieb-sich-die-welt-ins-dunkel"
+category = "reviews"
+tags = ["CD-Reviews", "Death Metal", "Download-Reviews", "durchwachsen", "modern", "technisch", ]
+labels = ["Eigenproduktion", ]
+player = "<iframe seamless=\"\" src=\"http://bandcamp.com/EmbeddedPlayer/album=324665268/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/\" style=\"border: 0; width: 690px; height: 472px;\"><a href=\"http://indemoni.bandcamp.com/album/so-trieb-sich-die-welt-ins-dunkel\">So trieb sich die Welt ins Dunkel by In Demoni</a></iframe>"
+image = "images//2014/03/In-Demoni-So-Trieb-Sich-Die-Welt-Ins-Dunkel.jpg"
+links = ["<a href=\"http://indemoni.bandcamp.com/\">http://indemoni.bandcamp.com/</a>", "<a href=\"https://www.facebook.com/InDemoni\">https://www.facebook.com/InDemoni</a>", "<a href=\"http://indemoni.de/\">http://indemoni.de/</a>", ]
+legacy = true
++++
+
+**IN DEMONI** fast forward: 2010 entschieden sich Carsten und Benny, beide bei **Nebelsarg**, "ein neues kompromissloses Death Metal Projekt mit asiatischen Instrumenten ins Leben zu rufen". Dabei übernimmt Carsten alle Instrumente, und Benny, der auch seit 2013 bei **Abrogation** singt, die Vocals. In der Zeit zwischen Ende 2012 bis Anfang 2013, hat das Duo ihr Debütalbum aufgenommen. Mehr oder weniger gänzlich im Alleingang, Mix und Mastering sowie das Artwork der Scheibe wurde abgegeben. Und wenn ich das im Booklet aber richtig gelesen habe, steuert der ehemalige **Abrogation** Sänger/Gitarrist Schwarte auch ein paar Bass-Töne zu "_So Trieb Sich Die Welt Ins Dunkel_" bei, im Song "_Reverse Creeping Worm_". Das war es aber schon an Fremdeinflüssen. Denn auch der Vertrieb ist aktuell gänzlich in der Hand von **IN DEMONI**, weswegen die Musik aktuell ausschließlich digital als Download erwerblich ist. Mit ein paar Pressestimmen im Rücken, soll aber eine Pressung per Crowd-Founding finanziert werden.
+
+Über das Für und Wider von Crowd-Founding im Metal wurde schon oft diskutiert. Die Beschreitung neuer Finanzierungswege, Entfremdung von den Wurzeln im Underground, DYI nur konsequent transponiert in die Moderne oder ein Messerstich in die Home-Taping Szene. Ein finales Urteil obliegt wohl jedem selber. Im Falle von "_So Trieb Sich Die Welt Ins Dunkel_" muss ich persönlich aber ganz klar sagen: Jungs, stoßt euch doch bitte noch etwas die Hörner ab, macht Demos, EPs, verteilt selbstgebrannte CDrs und publiziert eure Musik über Blogs, Bandcamp und so weiter. Klar, die Produktionskosten wollen gedeckt werden, ein Studio ist nicht billig. Aber man lernt aus den Prozessen und dem Feedback über solche Kanäle. Denn für den weiteren Werdegang müsst ihr noch viel Lernen.
+
+Zunächst erscheint der Sound eher suboptimal. Euer Album klingt unglaublich steril, künstlich und limitiert. Da spielen zum einen der Drumsound aus der Konserve mit ein, doch auch die Gitarrenspuren klingen oft sehr beschnitten, im Dynamik-Umfang und Volumen. Ja, an vielen Stellen denke ich, dass es nur eine Gitarre ist, ohne Bass, ohne zweite Gitarre zum Auffüllen des Sounds - selbst wenn diese nur digital gedoppelt ist, sei, wäre. Der Bass kommt nur selten aus den homogen gleichgeschalteten Frequenzen raus, wenn er dezent eigene Leads spielen darf. Doch sonst versteckt er sich sehr gut hinter der Gitarre. Aber nicht nur der Klang mach das Album so unorganisch, mich stört auch die Intonation der Gesangslinien. Häufig sind die Growls schlichte Spoken-Words, die vermeidlichen Schreie klingen sehr gepresst. Es fehlt einfach an Emotion, klingt nach runtergeleierter Routine ohne Wut, Aggression, wirklichem Interesse. An dieser Stellle ist **IN DEMONI** einfach etwas zu Droiden-haft.
+
+Musikalisch fehlt es den Songs an Stringenz. Punktuell ist der technische Anspruch an sich selbst etwas zu hoch gegriffen. Gerade der Auftakt "_Prophecy Of A Wormeaten Crone_" klingt nach einer ernüchterten Version von **Nile**, doch bereits "_Amorphic Messiah Of Latent Maggots_" mischt diese abstruse Technik zum Selbstzweck mit Elementen aus dem Black Metal, die im Albenverlauf noch häufiger auftauchen (höre besonders "_The Rising Of Dead Kings_"). Dann gibt es wieder **Tragedy**-mäßige Akkordaufbauten ("_Mutilized Hysteric Red Rage_") oder gar punkiges Drei-Griff-Geschrammel mit Ufta-Ufta-Beat ("_Ereschkigal_"). So richtig wissen **IN DEMONI** noch nicht, wohin ihre Reise gehen soll, verbinden zu viele Ideen und Elemente, ohne dass die Songs in sich schlüssig wirken. Ja, manches mal denke ich, dass am Ende eines Liedes der Anfang komplett vergessen wurde!
+Den größten Bockmist stellt an dieser Stelle "_Abstrakte Kunst Des Unterwerfens_" dar, das mit seinen Kindergarten-Leads und -Melodien, ziemlich schlechten deutschen Texten und Gollum-Gesang einfach nur peinlich ist.
+
+Oft scheint das Getrudel schlicht der übertriebenen Spieldauer geschuldet. Wären sowohl Tracks wie auch Album etwas kompakter, hätten **IN DEMONI** schlicht weniger Spielraum, um sich innerhalb eines Songs zu verlieren, oder über Gebühr viele Ideen auf ihrem Album zu verbraten. So sind es aber insgesamt 61 Minuten für 13 Songs (inklusive Intro und Outro), wo gerade die Songs unter der vier Minuten Marke am schlüssigsten wirken. Leider sind das die wenigsten.
+
+Dem eigenen Anspruch an "Death Metal mit asiatischen Instrumenten" werden **IN DEMONI** leider zu keiner Sekunde gerecht. Das exotische Instrument Pipa findet man lediglich in den Einleitungen zu den einzelnen Nummern und vielleicht etwas besser in ein Gesamtbild integriert, im Outro. Aber wirklich homogen in den Sound integriert, innerhalb der Lieder, da sucht man es vergebens. Oder es ist einfach nicht prägnant genug herausgearbeitet und der dumme Schreiber überhört die Mühe einfach. Schlussendlich gab es da wesentlich stimmigere Integrationen von andersartigen Instrumenten in den Death Metal Sound. Sei es nun Orchester bei **Fleshgod Apocalypse**, Saxophon bei **Isahn**, folkloristische Instrumente bei **Oblomov** und **!T.O.O.H.!**. Vielleicht als Tipp: Man kann mit solchen Elementen interessante Akzente setzen. Werden sie aber nicht konsequent und prominent verwendet, sollte man nicht damit hausieren.
+
+Unter all diesen schlechten Aspekten leidet "_So Trieb Sich Die Welt Ins Dunkel_". Der synthethische Sound, die lange Spieldauer, der penetrante Gesang, die inkonsequente Ausrichtung. Dazu fehlt es schlicht an markanten Riffs, Harmonien, Momenten, die irgend einen Song sonderlich im Gedächtnis festsetzt. Kurzum: In seiner Ganzheit macht das Album einfach keinen Spaß. Tut mir Leid, dass ich so ein vernichtendes Urteil treffen muss, aber es sind einfach zu viele Baustellen, wo **IN DEMONI** ausbessern müssen, alsdass ich ein, zwei, drei, tausend Augen zudrücken könnte. Doch das ist nur meine Meinung! Dank <a href="http://indemoni.bandcamp.com/">Bandcamp</a> kann jeder sich selber ein Urteil bilden, in das komplette Album reinhören und dann entscheiden, ob er 7 Euro für den Download von gut einer Stunde Musik latzen will (was immer noch ein fairer Deal ist), oder ob er eventuell die Band bei ihrer geplanten Crowdfunding-Kampagne unterstützen will. Am Ende wird sich die Band aber auch einfach freuen, wenn ihre die Musik hört, und ihr vielleicht konstruktive (!) Kritik hinterlasst. Denn wie sagte  Oma bereits: Nur aus Fehlern lernt man!
+
+
+
+
+
+---
+**Infos:**
+Eigenproduktion - 2013 / 
+Download - 13 Lieder / 61:41 Min. / 

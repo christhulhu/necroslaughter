@@ -1,0 +1,13 @@
+<title>{{ .Title }}{{ if eq .IsHome false }} - {{ .Site.Title }}{{ end }}</title>
+
+{{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+{{if isset .Params "description"}}<meta name="description" content="{{.Params.description}}">
+{{else}}
+{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+{{end}}
+
+{{ if .IsHome }}
+<meta content="{{ .Title}}, {{with .Site.Params.keywords}}{{ delimit . ", "}}{{end}}" name="keywords">
+{{ else }}
+<meta content="{{ .Title}}, {{with .Params.artist}}{{ delimit . ", "}}, {{end}}{{with .Params.genre}}{{ delimit . ", "}}, {{end}}{{with .Keywords}}{{ delimit . ", " }}{{end}}{{with .Section}}{{.}}{{end}}" name="keywords">
+{{end}}

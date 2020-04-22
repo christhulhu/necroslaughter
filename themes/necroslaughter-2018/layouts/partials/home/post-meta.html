@@ -1,0 +1,14 @@
+{{if isset .Params "genre" }}
+<span class="cf webzine_genres">
+	<span class="webzine_genres_label">
+		<i class="fa fa-tag"></i>
+		&nbsp;<strong>Genre{{ if gt (len .Params.genre) 1 }}s{{ end }}</strong>:
+	</span>
+	{{ range $index, $genre := .Params.genre }}
+	{{ if gt $index 0 }}, {{ end }}<a href="{{ "/genre/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+	{{ end }}
+</span>
+{{end}}
+<time class="updated entry-time" datetime="{{ dateFormat "2006-01-02" .Date }}" itemprop="datePublished">
+	<i class="fa fa-calendar"></i> Published on {{ dateFormat "2006-01-02" .Date }}
+</time>

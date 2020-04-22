@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+
+<div class="posts">
+    {{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") 5 }}
+    {{ range $paginator.Pages }}
+    {{ if eq .Section "review"}}
+    {{ partial "home/review.html" . }}
+    {{ else if eq .Section "interviews" }}
+    {{ partial "home/interview.html" . }}
+    {{ else if ne .Section "" }}
+    {{ partial "home/post.html" . }}
+    {{end}}
+    {{- end }}
+</div>
+{{ partial "pagination.html" . }}
+
+{{ partial "footer.html" . }}
